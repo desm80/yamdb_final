@@ -1,19 +1,8 @@
-# yamdb_final
-yamdb_final
-# infra_sp2
-# Учебный проект 
+![Yambd workflow](https://github.com/desm80/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
-### Технологии 
-* Python 3.7 
-* Django 2.2.16
-* DRF 3.12.4
-* Nginx
-* docker-compose
-* gunicorn
-* PostgreSQL
+### Проект YaMDb
 
 ### Описание 
-### Проект YaMDb
 Проект YaMDb собирает отзывы пользователей на произведения. Сами произведения в YaMDb не хранятся, здесь нельзя посмотреть фильм или послушать музыку.
 
 Произведения делятся на категории, такие как «Книги», «Фильмы», «Музыка».
@@ -67,9 +56,16 @@ yamdb_final
 
 http://178.154.201.53/admin/
 
+### Технологии 
+* Python 3.7 
+* Django 2.2.16
+* DRF 3.12.4
+* Nginx
+* docker-compose
+* gunicorn
+* PostgreSQL
+
 ### Авторы 
 * Денис, 
 * Илья, 
 * Дмитрий.
-
-https://github.com/desm80/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg
