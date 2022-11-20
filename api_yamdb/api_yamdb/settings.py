@@ -15,10 +15,11 @@ SECRET_KEY = os.getenv(
 
 # SECURITY WARNING: don't run with debug turned on in production!
 # DEBUG = os.getenv('DEBUG', default='False')
-DEBUG = True
+DEBUG = False
 
 
 ALLOWED_HOSTS = [
+    '127.0.0.1'
     '178.154.201.53',
     'localhost',
     'web',
