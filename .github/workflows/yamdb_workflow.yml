@@ -34,7 +34,7 @@ jobs:
         # перейти в папку, содержащую manage.py —
         #<корневая_папка_infra_actions>/<папка_проекта>/manage.py
         #cd infra_project/
-#        python -m pytest
+        python -m pytest
         
 
   build_and_push_to_docker_hub:
@@ -58,7 +58,7 @@ jobs:
         # Пуш образа в Docker Hub
         uses: docker/build-push-action@v2
         with:
-          context: ./api_yamdb
+          context: /api_yamdb
           push: true
           tags: desm80/api_yamdb:v1
 
