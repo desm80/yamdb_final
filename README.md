@@ -72,5 +72,4 @@ http://178.154.201.53/admin/
 * Илья, 
 * Дмитрий.
 
-
 https://github.com/desm80/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg
